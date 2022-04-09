@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-09T12:25:11 WIB" name="Default suite" finished-at="2022-04-09T12:27:13 WIB" duration-ms="122131">
+    <groups>
+    </groups>
+    <test started-at="2022-04-09T12:25:11 WIB" name="Default test" finished-at="2022-04-09T12:27:13 WIB" duration-ms="122131">
+      <class name="com.juaracoding.financeApp.StepDefinitions">
+        <test-method is-config="true" signature="initReports()[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:25:11 WIB" name="initReports" finished-at="2022-04-09T12:25:12 WIB" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:25:12 WIB" name="setUp" finished-at="2022-04-09T12:25:42 WIB" duration-ms="30024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:25:42 WIB" name="beforeMethodTest" finished-at="2022-04-09T12:25:42 WIB" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="testOpenApp()[pri:1, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:25:42 WIB" name="testOpenApp" description="User membuka catatan keuangan" finished-at="2022-04-09T12:26:01 WIB" duration-ms="18279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenApp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:26:01 WIB" name="getResult" finished-at="2022-04-09T12:26:01 WIB" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenApp status=SUCCESS method=StepDefinitions.testOpenApp()[pri:1, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:26:01 WIB" name="beforeMethodTest" finished-at="2022-04-09T12:26:01 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="testOutcome()[pri:2, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:26:01 WIB" name="testOutcome" description="User membuat catatan pengeluaran" finished-at="2022-04-09T12:26:42 WIB" duration-ms="41262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutcome -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:26:42 WIB" name="getResult" finished-at="2022-04-09T12:26:42 WIB" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOutcome status=SUCCESS method=StepDefinitions.testOutcome()[pri:2, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:26:42 WIB" name="beforeMethodTest" finished-at="2022-04-09T12:26:42 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="testIncome()[pri:3, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:26:42 WIB" name="testIncome" description="User membuat catatan pemasukkan" finished-at="2022-04-09T12:27:09 WIB" duration-ms="26501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncome -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:27:09 WIB" name="getResult" finished-at="2022-04-09T12:27:09 WIB" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testIncome status=SUCCESS method=StepDefinitions.testIncome()[pri:3, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.juaracoding.financeApp.StepDefinitions@dbf57b3]" started-at="2022-04-09T12:27:09 WIB" name="closeApp" finished-at="2022-04-09T12:27:13 WIB" duration-ms="4540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.juaracoding.financeApp.StepDefinitions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
